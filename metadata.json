@@ -1,0 +1,7 @@
+{
+  "name": "Lumina ADU - Los Angeles Premier Builders",
+  "description": "A high-end, Apple-inspired ADU construction platform for Los Angeles homeowners, featuring AI-powered design assistance and cost estimation.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
