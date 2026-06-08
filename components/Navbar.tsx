@@ -19,7 +19,7 @@ const Navbar: React.FC<NavbarProps> = ({ onHome }) => {
           <div className="hidden md:flex gap-6 text-xs font-normal text-gray-600">
             <a href="#solutions" className="hover:text-black transition-colors">Solutions</a>
             <a href="#gallery" className="hover:text-black transition-colors">Projects</a>
-            <a href="#ai-assistant" className="hover:text-black transition-colors">AI Planner</a>
+            <a href="#feasibility" className="hover:text-black transition-colors">Calculator</a>
             <a href="#areas" className="hover:text-black transition-colors">Areas</a>
           </div>
         </div>

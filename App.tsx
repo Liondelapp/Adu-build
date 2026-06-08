@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import Navbar from './components/Navbar';
-import AIAssistant from './components/AIAssistant';
+import FeasibilityTool from './components/FeasibilityTool';
 import ServiceAreas from './components/ServiceAreas';
 import CityPage from './components/CityPage';
 import SB1123Page from './components/SB1123Page';
@@ -62,8 +62,8 @@ const App: React.FC = () => {
                 Lumina ADU builds premium Accessory Dwelling Units in Los Angeles. From garage conversions to detached suites, we handle design, permitting, and construction.
               </p>
               <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
-                <a href="#ai-assistant" className="px-8 py-4 bg-white text-black rounded-full font-semibold hover:bg-gray-100 transition-all min-w-[200px] shadow-xl">
-                  Start AI Planning
+                <a href="#feasibility" className="px-8 py-4 bg-white text-black rounded-full font-semibold hover:bg-gray-100 transition-all min-w-[200px] shadow-xl">
+                  Check My Property
                 </a>
                 <a href="#areas" className="px-8 py-4 text-white font-semibold hover:underline flex items-center gap-2 drop-shadow-md">
                   View Areas <span>→</span>
@@ -152,7 +152,7 @@ const App: React.FC = () => {
             </div>
           </section>
 
-          <AIAssistant />
+          <FeasibilityTool />
 
           <ServiceAreas onCitySelect={goToCity} />
 
