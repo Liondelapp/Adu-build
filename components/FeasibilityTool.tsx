@@ -76,18 +76,18 @@ const Calculator: React.FC<{ onOpenReport: () => void }> = ({ onOpenReport }) =>
           />
         </div>
 
-        <div className="flex justify-between items-center">
-          <label className="text-xs font-semibold text-gray-400 uppercase tracking-widest max-w-[55%]">Buildable yard / parking?</label>
+        <div className="flex flex-wrap justify-between items-center gap-3">
+          <label className="text-xs font-semibold text-gray-400 uppercase tracking-widest">Buildable yard / parking?</label>
           <Toggle value={hasLot} onChange={setHasLot} on="Yes" off="No" />
         </div>
 
-        <div className="flex justify-between items-center">
-          <label className="text-xs font-semibold text-gray-400 uppercase tracking-widest max-w-[55%]">Existing or proposed building?</label>
+        <div className="flex flex-wrap justify-between items-center gap-3">
+          <label className="text-xs font-semibold text-gray-400 uppercase tracking-widest">Existing or proposed building?</label>
           <Toggle value={existing} onChange={setExisting} on="Existing" off="Proposed" />
         </div>
 
-        <div className="flex justify-between items-center">
-          <label className="text-xs font-semibold text-gray-400 uppercase tracking-widest max-w-[55%]">Non-habitable interior space?</label>
+        <div className="flex flex-wrap justify-between items-center gap-3">
+          <label className="text-xs font-semibold text-gray-400 uppercase tracking-widest">Non-habitable interior space?</label>
           <Toggle value={hasInterior} onChange={setHasInterior} on="Yes" off="No" />
         </div>
       </div>
@@ -362,12 +362,12 @@ const LeadModal: React.FC<{ open: boolean; onClose: () => void }> = ({ open, onC
               <h3 className="text-2xl font-bold mb-1">{report.headline}</h3>
               <p className="text-sm text-gray-500 mb-6">Based on a {lead.units}-unit {report.propLabel} in {report.jurisLabel}.</p>
 
-              <div className="bg-gray-900 text-white rounded-2xl p-6 flex justify-between items-center mb-4">
+              <div className="bg-gray-900 text-white rounded-2xl p-6 flex flex-wrap justify-between items-center gap-4 mb-4">
                 <div className="flex items-baseline gap-2">
                   <span className="text-6xl font-bold">{report.total}</span>
                   <span className="text-gray-400">units</span>
                 </div>
-                <div className="text-right text-sm text-gray-300 space-y-0.5">
+                <div className="text-sm text-gray-300 space-y-0.5">
                   <div><b className="text-white">{report.detached}</b> detached · SB 1211</div>
                   <div><b className="text-white">{report.interior}</b> interior conversions</div>
                   <div>~$<b className="text-white">{report.annualRent}K</b> est. annual rent</div>

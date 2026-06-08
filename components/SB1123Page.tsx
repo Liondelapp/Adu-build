@@ -40,7 +40,7 @@ const SB1123Page: React.FC<SB1123PageProps> = ({ onBack }) => {
       {/* Deep Dive Information */}
       <section className="py-24 border-y border-gray-100">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-20 items-center">
+          <div className="grid md:grid-cols-2 gap-10 md:gap-20 items-center">
             <div className="space-y-8">
               <h2 className="text-3xl font-bold">Why SB 1123 Changes Everything</h2>
               <p className="text-gray-600 text-lg leading-relaxed">
@@ -58,7 +58,7 @@ const SB1123Page: React.FC<SB1123PageProps> = ({ onBack }) => {
               </div>
             </div>
             <div className="relative">
-              <img src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=800&q=80" className="rounded-[3rem] shadow-2xl" alt="Modern small home" />
+              <img src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=800&q=80" className="rounded-3xl md:rounded-[3rem] shadow-2xl" alt="Modern small home" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-3xl shadow-xl border border-gray-100 hidden md:block">
                 <p className="text-xs text-gray-400 uppercase font-bold mb-1">Impact</p>
                 <p className="text-2xl font-bold text-blue-600">+45,000</p>
@@ -97,7 +97,7 @@ const SB1123Page: React.FC<SB1123PageProps> = ({ onBack }) => {
       {/* New Section 2: Infrastructure & Utilities */}
       <section className="py-24 bg-gray-900 text-white overflow-hidden relative">
         <div className="max-w-7xl mx-auto px-6 relative z-10">
-          <div className="grid md:grid-cols-2 gap-16 items-center">
+          <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
             <div>
               <h2 className="text-4xl font-bold mb-8">Powering Your Parcel: <br /><span className="text-blue-400">Utilities & Infrastructure</span></h2>
               <div className="space-y-6 text-gray-400">
@@ -129,7 +129,7 @@ const SB1123Page: React.FC<SB1123PageProps> = ({ onBack }) => {
             <h2 className="text-4xl font-bold mb-4">Case Study: The Echo Park Infill</h2>
             <p className="text-gray-500 text-lg">Converting a "non-conforming" vacant lot into a $950k asset.</p>
           </div>
-          <div className="bg-white rounded-[3rem] p-8 md:p-16 border border-gray-100 flex flex-col md:flex-row gap-16">
+          <div className="bg-white rounded-3xl md:rounded-[3rem] p-8 md:p-16 border border-gray-100 flex flex-col md:flex-row gap-10 md:gap-16">
             <div className="md:w-1/2 space-y-8">
               <div className="space-y-2">
                 <h3 className="text-2xl font-bold">The Challenge</h3>
@@ -186,9 +186,9 @@ const SB1123Page: React.FC<SB1123PageProps> = ({ onBack }) => {
       {/* New Section 3: Financing & Taxes */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-20 items-center">
+          <div className="grid md:grid-cols-2 gap-10 md:gap-20 items-center">
             <div className="order-2 md:order-1">
-              <div className="bg-blue-600 p-12 rounded-[3rem] text-white">
+              <div className="bg-blue-600 p-8 md:p-12 rounded-3xl md:rounded-[3rem] text-white">
                 <h3 className="text-3xl font-bold mb-6">Financing the Build</h3>
                 <p className="mb-8 text-blue-100">Most traditional mortgages won't cover construction on a vacant lot. Lumina partners with specialized lenders to offer:</p>
                 <ul className="space-y-4">

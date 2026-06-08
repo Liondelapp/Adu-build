@@ -82,7 +82,7 @@ const CityPage: React.FC<CityPageProps> = ({ city, onBack }) => {
                 alt={`${city} ADU Project`} 
               />
             </div>
-            <div className="md:w-1/2 p-12 flex flex-col justify-center">
+            <div className="md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
               <span className="text-xs font-bold text-blue-500 uppercase tracking-widest mb-4">Case Study</span>
               <h3 className="text-3xl font-bold mb-6">Modern Detached ADU in {city}</h3>
               <p className="text-gray-500 mb-8">

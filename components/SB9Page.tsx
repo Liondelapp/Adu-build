@@ -41,7 +41,7 @@ const SB9Page: React.FC<SB9PageProps> = ({ onBack }) => {
       <section className="py-24 border-y border-gray-100">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12">
-            <div className="bg-purple-50 p-12 rounded-[3rem]">
+            <div className="bg-purple-50 p-8 md:p-12 rounded-3xl md:rounded-[3rem]">
               <h3 className="text-3xl font-bold mb-6 text-purple-900">Path 1: The Lot Split</h3>
               <p className="text-purple-800/70 mb-8 leading-relaxed">
                 Take one 10,000 sq ft lot and split it into two 5,000 sq ft lots. Sell the new vacant lot for immediate profit or build an entirely separate home with its own title and address.
@@ -54,7 +54,7 @@ const SB9Page: React.FC<SB9PageProps> = ({ onBack }) => {
                 ))}
               </ul>
             </div>
-            <div className="bg-gray-900 p-12 rounded-[3rem] text-white">
+            <div className="bg-gray-900 p-8 md:p-12 rounded-3xl md:rounded-[3rem] text-white">
               <h3 className="text-3xl font-bold mb-6">Path 2: The Two-Unit Build</h3>
               <p className="text-gray-400 mb-8 leading-relaxed">
                 Keep your lot as one but build two full-sized primary residences. This "Duplex Style" approach is faster and avoids the legal complexity of a full parcel split while doubling your rental units.
@@ -75,7 +75,7 @@ const SB9Page: React.FC<SB9PageProps> = ({ onBack }) => {
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-4xl font-bold mb-12">What Cities Can & Can't Require</h2>
-          <div className="grid md:grid-cols-2 gap-16">
+          <div className="grid md:grid-cols-2 gap-10 md:gap-16">
             <div className="space-y-6">
               <p className="text-gray-600 text-lg">Under SB 9, local governments are limited in their ability to block your project. They must follow "Objective Standards."</p>
               <div className="p-6 bg-gray-50 rounded-2xl">
@@ -153,7 +153,7 @@ const SB9Page: React.FC<SB9PageProps> = ({ onBack }) => {
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-4xl font-bold mb-16">Case Study: The Sherman Oaks Equity Play</h2>
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="md:col-span-2 bg-gray-50 rounded-[3rem] p-12">
+            <div className="md:col-span-2 bg-gray-50 rounded-3xl md:rounded-[3rem] p-8 md:p-12">
               <h4 className="text-2xl font-bold mb-6">The Project</h4>
               <p className="text-gray-600 mb-8 text-lg leading-relaxed">
                 A homeowner with a 12,000 sq ft lot in Sherman Oaks split their property into two 6,000 sq ft lots. They kept their existing home and sold the newly created rear lot to a developer.
@@ -181,7 +181,7 @@ const SB9Page: React.FC<SB9PageProps> = ({ onBack }) => {
                 <p className="text-gray-500 mt-2">Plus a significantly reduced property tax liability for the remaining primary residence.</p>
               </div>
             </div>
-            <div className="bg-purple-600 rounded-[3rem] p-12 text-white flex flex-col justify-between">
+            <div className="bg-purple-600 rounded-3xl md:rounded-[3rem] p-8 md:p-12 text-white flex flex-col justify-between">
               <div>
                 <h4 className="text-2xl font-bold mb-6">Who is this for?</h4>
                 <div className="space-y-6">
@@ -204,7 +204,7 @@ const SB9Page: React.FC<SB9PageProps> = ({ onBack }) => {
       {/* New Section 3: The Mapping Process */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-20 items-center">
+          <div className="grid md:grid-cols-2 gap-10 md:gap-20 items-center">
             <div>
               <h2 className="text-4xl font-bold mb-8">The Engineering of a Split</h2>
               <p className="text-gray-600 text-lg leading-relaxed mb-8">
@@ -226,7 +226,7 @@ const SB9Page: React.FC<SB9PageProps> = ({ onBack }) => {
                 ))}
               </div>
             </div>
-            <div className="bg-gray-900 p-8 rounded-[3rem] aspect-square flex items-center justify-center relative overflow-hidden">
+            <div className="bg-gray-900 p-8 rounded-3xl md:rounded-[3rem] aspect-square flex items-center justify-center relative overflow-hidden">
                <div className="w-48 h-48 border-2 border-purple-500/30 rounded-full animate-pulse absolute"></div>
                <div className="w-32 h-32 bg-purple-500/10 rounded-full flex items-center justify-center">
                  <span className="text-4xl text-purple-400">🗺️</span>
@@ -244,7 +244,7 @@ const SB9Page: React.FC<SB9PageProps> = ({ onBack }) => {
           <p className="text-gray-600 text-lg leading-relaxed mb-12">
             Even if you aren't ready to sell today, performing an SB 9 split increases your property's "Option Value." You are essentially creating a second tradable asset that remains dormant until the market hits your target price.
           </p>
-          <div className="bg-white p-12 rounded-[3rem] shadow-sm border border-gray-100">
+          <div className="bg-white p-8 md:p-12 rounded-3xl md:rounded-[3rem] shadow-sm border border-gray-100">
              <div className="flex flex-col md:flex-row justify-center gap-12 text-left">
                <div>
                  <h4 className="font-bold text-purple-600 mb-2">Resale Liquidity</h4>

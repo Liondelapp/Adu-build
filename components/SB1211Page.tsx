@@ -41,7 +41,7 @@ const SB1211Page: React.FC<SB1211PageProps> = ({ onBack }) => {
       <section className="py-24 border-y border-gray-100">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="p-10 bg-gray-50 rounded-[3rem] space-y-4">
+            <div className="p-10 bg-gray-50 rounded-3xl md:rounded-[3rem] space-y-4">
               <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center shadow-sm">
                 <span className="text-2xl">🚗</span>
               </div>
@@ -50,7 +50,7 @@ const SB1211Page: React.FC<SB1211PageProps> = ({ onBack }) => {
                 Crucial update: Converting carports or garages into ADUs no longer requires you to replace those parking spaces. Build density without land constraints.
               </p>
             </div>
-            <div className="p-10 bg-green-50 rounded-[3rem] space-y-4">
+            <div className="p-10 bg-green-50 rounded-3xl md:rounded-[3rem] space-y-4">
               <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center shadow-sm">
                 <span className="text-2xl">🏢</span>
               </div>
@@ -59,7 +59,7 @@ const SB1211Page: React.FC<SB1211PageProps> = ({ onBack }) => {
                 Detach unit caps have been expanded. Most R-2 and R-3 lots in Los Angeles can now accommodate significantly more detached housing units.
               </p>
             </div>
-            <div className="p-10 bg-gray-900 rounded-[3rem] space-y-4 text-white">
+            <div className="p-10 bg-gray-900 rounded-3xl md:rounded-[3rem] space-y-4 text-white">
               <div className="w-12 h-12 bg-gray-800 rounded-2xl flex items-center justify-center shadow-sm">
                 <span className="text-2xl text-green-400">⚡</span>
               </div>
@@ -75,7 +75,7 @@ const SB1211Page: React.FC<SB1211PageProps> = ({ onBack }) => {
       {/* New Section 1: The 25% Rule Explained */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-20 items-center">
+          <div className="grid md:grid-cols-2 gap-10 md:gap-20 items-center">
             <div>
               <h2 className="text-4xl font-bold mb-8">Conversion ADUs: <br />The 25% Rule</h2>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
@@ -87,7 +87,7 @@ const SB1211Page: React.FC<SB1211PageProps> = ({ onBack }) => {
               </div>
             </div>
             <div className="relative aspect-square">
-               <img src="https://images.unsplash.com/photo-1574362848149-11496d93a7c7?auto=format&fit=crop&w=800&q=80" className="w-full h-full object-cover rounded-[3rem]" alt="Modern apartment interior" />
+               <img src="https://images.unsplash.com/photo-1574362848149-11496d93a7c7?auto=format&fit=crop&w=800&q=80" className="w-full h-full object-cover rounded-3xl md:rounded-[3rem]" alt="Modern apartment interior" />
             </div>
           </div>
         </div>
@@ -113,8 +113,8 @@ const SB1211Page: React.FC<SB1211PageProps> = ({ onBack }) => {
       {/* Case Study: The Koreatown Expansion */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="bg-gray-50 rounded-[3rem] overflow-hidden flex flex-col lg:flex-row border border-gray-100 shadow-sm">
-            <div className="lg:w-1/2 p-12 md:p-20 space-y-8">
+          <div className="bg-gray-50 rounded-3xl md:rounded-[3rem] overflow-hidden flex flex-col lg:flex-row border border-gray-100 shadow-sm">
+            <div className="lg:w-1/2 p-8 md:p-20 space-y-8">
               <span className="text-xs font-bold text-green-600 uppercase tracking-widest">Case Study</span>
               <h2 className="text-4xl font-bold">Koreatown 12-Unit Expansion</h2>
               <p className="text-gray-600 text-lg">An investor owned a classic 12-unit brick building with a large underutilized rear carport area.</p>
@@ -185,9 +185,9 @@ const SB1211Page: React.FC<SB1211PageProps> = ({ onBack }) => {
       {/* New Section 4: Zoning Overlays & TOC */}
       <section className="py-24 bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-16 items-center">
+          <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
             <div className="order-2 md:order-1">
-              <div className="bg-white/5 p-12 rounded-[3rem] border border-white/10 backdrop-blur">
+              <div className="bg-white/5 p-8 md:p-12 rounded-3xl md:rounded-[3rem] border border-white/10 backdrop-blur">
                 <h3 className="text-3xl font-bold mb-6 text-green-400">Advanced Synergies</h3>
                 <p className="text-gray-400 leading-relaxed mb-6">
                   We specialize in combining SB 1211 with LA's "Transit Oriented Communities" (TOC) overlays. This allows for stacking density bonuses and maximizing the unit count beyond basic state law.
